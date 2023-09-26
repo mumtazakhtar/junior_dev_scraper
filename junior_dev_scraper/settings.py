@@ -19,6 +19,10 @@ NEWSPIDER_MODULE = "junior_dev_scraper.spiders"
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
+#configuring scrapy to export data to csv file:
+FEED_FORMAT = 'csv'
+FEED_URI = 'output.csv'
+
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
